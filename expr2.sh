@@ -1,9 +1,9 @@
-#to display sequence of numbers
-echo "enter value:"
-read n
-i=1
-while [ $i -le $n ]
-do
-echo $i
-i=`expr $i + 1`
-done
+#check two numbers
+echo "enter two numbers"
+read a b 
+if [ $a -eq $b ]
+then
+echo "$a and $b are equal"
+else
+echo "$a and $b are not equal"
+fi
